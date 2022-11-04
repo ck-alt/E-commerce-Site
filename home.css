@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-color: #ffe9d6;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    height: 15vh;
+
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+li{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: thin;
+}
+
+#cart{
+    background-color:#ff7a00;
+    padding: 10px 0px 0px 10px;
+    width: 120px;
+    border-radius: 20px 20px 20px 20px;
+}
+#hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hero img{
+    width: 700px;
+    height: 600px;
+}
+#hero h2{
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    text-transform: uppercase;
+    margin-right: -400px;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #ff7a00;
+}
+main{
+    margin-top: -20px;
+    padding: 0px;
+}
+article{
+    margin: 0px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+article p{
+    width: 70vw;
+    height: 30vh;
+    border: 1px white;
+    color: white;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+}
+
+#products h3{
+    text-align: center;
+    margin-top: 10px;
+  
+    color: black;
+    background-color: white;
+
+}
+#item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#item2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.prod{
+    margin: 50px 50px 0px 50px;
+    width: 200px;
+    height: 300px;
+}
+#gadgets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: #ff7a00;
+    border: none;
+   width: 200px;
+   height: 30px;
+   border-radius: 5px;
+}
+#item1 h3{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+#foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#float{
+    border: 1px solid red;
+    width: 1205px;
+}
